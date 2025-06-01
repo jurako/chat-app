@@ -1,12 +1,16 @@
+import './App.css'
+
 function App() {
   return ( 
-    <>
-      Hello World
+    <div className="wrapper">
+      <aside>Contacts</aside>
+      <main>
+        {/* <span>Select a conversation</span> */}
 
-      <p className="inter-test-regular">Hi David, have you got the project report pdf?</p>
-
-      <p className="inter-test-semi-bold">Lisa Roy</p>
-    </>
+        <div className="chat">asdf</div>
+        <div className="new-message"></div>
+      </main>
+    </div>
   )
 }
 

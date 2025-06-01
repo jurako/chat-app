@@ -1,0 +1,22 @@
+aside {
+  width: 320px;
+  border-right: 1px solid var(--subtle2-color);
+}
+
+main {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chat {
+  flex-grow: 1;
+  background-color: var(--chat-bg-color);
+}
+
+.new-message {
+  height: 100px;
+
+  background-color: var(--new-message-bg-color);
+}
