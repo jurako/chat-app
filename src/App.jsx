@@ -1,4 +1,7 @@
+import SearchIcon from './assets/icons/search-icon.svg?react';
+
 import Profile from './components/Profile/Profile'
+import Input from './components/shared/Input/Input'
 import './App.css'
 
 function App() {
@@ -6,6 +9,11 @@ function App() {
     <div className="wrapper">
       <aside>
         <Profile/>
+        <Input
+          placeholder="Search Here..."
+          name="search"
+          iconBefore={SearchIcon}
+        />
       </aside>
       <main>
         {/* <span>Select a conversation</span> */}
