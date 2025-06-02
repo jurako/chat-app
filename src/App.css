@@ -1,6 +1,7 @@
 aside {
   width: 320px;
   border-right: 1px solid var(--subtle2-color);
+  padding: 20px;
 }
 
 main {
