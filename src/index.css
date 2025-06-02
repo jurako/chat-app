@@ -18,6 +18,7 @@
   /*general colors*/
   --subtle-color: #D9D9D9;
   --subtle2-color: #CDCDCD;
+  --focused-input-border-color: #4399FF;
 }
 
 * {
