@@ -1,9 +1,12 @@
+import Profile from './components/Profile/Profile'
 import './App.css'
 
 function App() {
   return ( 
     <div className="wrapper">
-      <aside>Contacts</aside>
+      <aside>
+        <Profile/>
+      </aside>
       <main>
         {/* <span>Select a conversation</span> */}
 

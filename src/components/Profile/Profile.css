@@ -1,0 +1,17 @@
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile__name {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--contact-name-color);
+}
+
+.profile__position {
+    font-size: 9px;
+    font-weight: 600;
+    color: #545454;
+}
