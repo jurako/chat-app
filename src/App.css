@@ -4,6 +4,10 @@ aside {
   padding: 20px;
 }
 
+aside .profile {
+  margin-bottom: 14px;
+}
+
 main {
   flex-grow: 1;
 
