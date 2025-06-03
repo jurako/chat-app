@@ -7,6 +7,8 @@
   --sender-message-bg-color: #DCE8FF;
   --receiver-message-bg-color: #4399FF;
   --new-message-bg-color: #DCE8FF;
+  --contact-no-unread-msg-bg-color: #DCE8FF;
+  --contact-unread-msg-bg-color: #4399FF;
 
   /*text colors*/
   --contact-name-color: #4399FF;

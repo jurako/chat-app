@@ -1,0 +1,53 @@
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__details-container {
+  flex-grow: 1;
+}
+
+.contact__name {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--contact-name-color);
+}
+
+.contact__last-msg-time {
+  font-weight: 400;
+  font-size: 9px;
+  color: var(--last-message-time-color);
+}
+
+.contact__last-msg {
+  font-weight: 400;
+  font-size: 9px;
+  color: var(--last-message-color);
+}
+
+.contact__msg-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 20px;
+  min-width: 20px;
+  padding: 0 2px;
+
+  font-size: 10px;
+
+  background-color: var(--contact-no-unread-msg-bg-color);
+  border-radius: 50%;
+}
+
+.contact__msg-status_has-unread {
+  color: #FFFFFF;
+  background-color: var(--contact-unread-msg-bg-color);
+}
