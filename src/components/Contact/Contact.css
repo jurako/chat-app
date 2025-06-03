@@ -27,9 +27,16 @@
 }
 
 .contact__last-msg {
+  max-width: 145px;
+  max-height: 20px;
+
   font-weight: 400;
   font-size: 9px;
   color: var(--last-message-color);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-line;
 }
 
 .contact__msg-status {
