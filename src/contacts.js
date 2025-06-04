@@ -5,7 +5,7 @@ const contacts = [
     lastMessage: 'Ya. I’ll be adding more team members to it.',
     lastMessageTime: '10:35 PM',
     unreadMessages: null,
-    avatarUrl: 'contact1.png'
+    avatarUrl: 'user2.png'
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const contacts = [
     lastMessage: 'Hi, are you Available Tomorrow?',
     lastMessageTime: '10:35 PM',
     unreadMessages: 1,
-    avatarUrl: 'contact2.png'
+    avatarUrl: 'user3.png'
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const contacts = [
     lastMessage: "Nice One.\nWill Do it tommorow",
     lastMessageTime: '10:35 PM',
     unreadMessages: 3,
-    avatarUrl: 'contact3.png'
+    avatarUrl: 'user4.png'
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const contacts = [
     lastMessage: "That’s Great. I am Looking forward to having a great start.",
     lastMessageTime: '10:35 PM',
     unreadMessages: null,
-    avatarUrl: 'contact4.png'
+    avatarUrl: 'user5.png'
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const contacts = [
     lastMessage: "Hi, will you start working on the chat app right now?",
     lastMessageTime: '10:35 PM',
     unreadMessages: null,
-    avatarUrl: 'contact5.png'
+    avatarUrl: 'user6.png'
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const contacts = [
     lastMessage: "See you tommorow champ",
     lastMessageTime: '10:35 PM',
     unreadMessages: null,
-    avatarUrl: 'contact6.png'
+    avatarUrl: 'user7.png'
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const contacts = [
     lastMessage: "??",
     lastMessageTime: '10:35 PM',
     unreadMessages: 1,
-    avatarUrl: 'contact7.png'
+    avatarUrl: 'user8.png'
   },
 ];
 
