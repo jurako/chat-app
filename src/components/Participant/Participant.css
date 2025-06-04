@@ -1,0 +1,21 @@
+.participant {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--subtle-color);
+}
+
+.participant__name {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--user-name-color);
+}
+
+.participant__status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #33EC23;
+}
