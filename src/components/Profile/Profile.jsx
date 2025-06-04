@@ -5,7 +5,7 @@ function Profile() {
     <>
       <div className="profile">
 
-        <img className="profile__picture" src="/public/images/avatars/profile.png" alt="Profile picture" />
+        <img className="profile__picture" src="/images/avatars/profile.png" alt="Profile picture" />
         <div className="profile__details">
           <div className="profile__name">David Peters</div>
           <div className="profile__position">Senior Developer</div>

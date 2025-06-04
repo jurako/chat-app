@@ -4,7 +4,7 @@ import './Contact.css';
 function Contact({ contact }) {
   return (
     <div className="contact">
-      <img src={`/public/images/avatars/${contact.avatarUrl}`} alt={contact.name} />
+      <img src={`/images/avatars/${contact.avatarUrl}`} alt={contact.name} />
       <div className="contact__details-container">
         <div className="contact__details">
           <span className="contact__name">{contact.name}</span>
