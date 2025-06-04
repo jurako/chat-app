@@ -5,12 +5,17 @@ import SearchIcon from './assets/icons/search-icon.svg?react';
 
 import Converation from './components/Converation/Converation'
 import Profile from './components/Profile/Profile'
+import Participant from './components/Participant/Participant'
 import Input from './components/shared/Input/Input'
 import './App.css'
 
 function App() {
   const [converations, setConverations] = useState(initialConverations);
-  // const [current]
+  const [selectedConveration, setSelectedConveration] = useState(initialConverations[0]);
+
+  //temporary constant to hold participants' name
+  //in reality, the conversations array will contain array with participants, from which the data will be pulled
+  const participantName = 'Dianne Johnson';
 
   let converationItems = null;
   if(converations.length) {
@@ -36,10 +41,24 @@ function App() {
 
       </aside>
       <main>
-        {/* <span>Select a conversation</span> */}
-
-        <div className="chat">asdf</div>
-        <div className="new-message"></div>
+        {selectedConveration ?
+        (
+          <>
+            <div className="chat main-content-padding">
+              <Participant
+                avatarUrl={selectedConveration.avatarUrl}
+                name={participantName}
+              />
+              <div className="messages">asdf</div>
+            </div>
+            <div className="new-message main-content-padding">
+              New messages
+            </div>
+          </>
+        ) :
+        (
+          <div>Select a conversation</div>
+        )}
       </main>
     </div>
   )
