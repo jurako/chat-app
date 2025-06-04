@@ -17,7 +17,7 @@
 .converation__name {
   font-weight: 600;
   font-size: 14px;
-  color: var(--converation-name-color);
+  color: var(--user-name-color);
 }
 
 .converation__last-msg-time {

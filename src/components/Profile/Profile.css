@@ -7,7 +7,7 @@
 .profile__name {
     font-size: 15px;
     font-weight: 600;
-    color: var(--converation-name-color);
+    color: var(--user-name-color);
 }
 
 .profile__position {
