@@ -1,32 +1,32 @@
-.contact {
+.converation {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.contact__details {
+.converation__details {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.contact__details-container {
+.converation__details-container {
   flex-grow: 1;
 }
 
-.contact__name {
+.converation__name {
   font-weight: 600;
   font-size: 14px;
-  color: var(--contact-name-color);
+  color: var(--converation-name-color);
 }
 
-.contact__last-msg-time {
+.converation__last-msg-time {
   font-weight: 400;
   font-size: 9px;
   color: var(--last-message-time-color);
 }
 
-.contact__last-msg {
+.converation__last-msg {
   max-width: 145px;
   max-height: 20px;
 
@@ -39,7 +39,7 @@
   white-space: pre-line;
 }
 
-.contact__msg-status {
+.converation__msg-status {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,11 +50,11 @@
 
   font-size: 10px;
 
-  background-color: var(--contact-no-unread-msg-bg-color);
+  background-color: var(--converation-no-unread-msg-bg-color);
   border-radius: 50%;
 }
 
-.contact__msg-status_has-unread {
+.converation__msg-status_has-unread {
   color: #FFFFFF;
-  background-color: var(--contact-unread-msg-bg-color);
+  background-color: var(--converation-unread-msg-bg-color);
 }

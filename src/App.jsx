@@ -1,20 +1,21 @@
 import { useState } from 'react'
 
-import initialContacts from './contacts';
+import initialConverations from './converations';
 import SearchIcon from './assets/icons/search-icon.svg?react';
 
-import Contact from './components/Contact/Contact'
+import Converation from './components/Converation/Converation'
 import Profile from './components/Profile/Profile'
 import Input from './components/shared/Input/Input'
 import './App.css'
 
 function App() {
-  const [contacts, setContacts] = useState(initialContacts);
+  const [converations, setConverations] = useState(initialConverations);
+  // const [current]
 
-  let contactItems = null;
-  if(contacts.length) {
-    contactItems = contacts.map(contact =>
-      <Contact key={contact.id} contact={contact} />
+  let converationItems = null;
+  if(converations.length) {
+    converationItems = converations.map(converation =>
+      <Converation key={converation.id} converation={converation} />
     );
   }
 
@@ -27,9 +28,9 @@ function App() {
           name="search"
           iconBefore={SearchIcon}
         />
-        {contactItems && (
-          <div className="contacts">
-            {contactItems}
+        {converationItems && (
+          <div className="converations">
+            {converationItems}
           </div>
         )}
 
