@@ -4,8 +4,8 @@
   /*background colors*/
   --bg-color: #F0F0F0;
   --chat-bg-color: #FFFFFF;
-  --sender-message-bg-color: #DCE8FF;
-  --receiver-message-bg-color: #4399FF;
+  --message-box-participant-bg-color: #DCE8FF;
+  --message-box-curr-user-bg-color: #4399FF;
   --new-message-bg-color: #DCE8FF;
   --converation-no-unread-msg-bg-color: #DCE8FF;
   --converation-unread-msg-bg-color: #4399FF;
@@ -14,8 +14,8 @@
   --user-name-color: #4399FF;
   --last-message-color: #959595;
   --last-message-time-color: #BABABA;
-  --chat-message-sender-color: #000000;
-  --chat-message-receiver-color: #FFFFFF;
+  --chat-message-participant-color: #000000;
+  --chat-message-curr-user-color: #FFFFFF;
 
   /*general colors*/
   --subtle-color: #D9D9D9;
